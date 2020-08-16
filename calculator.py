@@ -1,5 +1,8 @@
 
 def main():
+
+	result = 0
+
 	while True:
 		num1 = input("Enter the first number: ")
 		try:
@@ -32,10 +35,11 @@ def main():
 			result = int(num1) * int(num2)
 		else:
 			print("The operation entered is not valid")
+
+		print (result)
 		break
 
 
-	print (result)
 
 
 
