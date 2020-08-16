@@ -32,10 +32,10 @@ def main():
 			result = int(num1) * int(num2)
 		else:
 			print("The operation entered is not valid")
-			break
+		break
 
 
-		print (result)
+	print (result)
 
 
 
